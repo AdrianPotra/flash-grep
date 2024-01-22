@@ -25,6 +25,8 @@ After all of the above, it should compile just fine
 mgrep search_string search_dir
 ```
 
+The search string argument is mandatory, without it the app would abort and the search dir argument is optional. 
+
 I was testing it mostly via the go run command, so if you want a quick run of the app, just enter command like in this example: 
 ```
 go run ./mgrep scan . 
