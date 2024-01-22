@@ -10,7 +10,12 @@ There is the original grep tool and probably dozens of clones out there. My moti
 
 Make sure you have a working Go environment, then clone the repo and also make sure to have the following package installed, as a dependency for the project: 
 https://github.com/alexflint/go-arg
-I like to use go mod tidy command every time I use external packages in my projects. 
+
+I like to use 
+```
+go mod tidy 
+```
+command every time I use external packages in my projects, before compiling or running an app.  
 After all of the above, it should compile just fine
 
 ## Usage
@@ -19,6 +24,7 @@ After all of the above, it should compile just fine
  ```
 mgrep search_string search_dir
 ```
+
 I was testing it mostly via the go run command, so if you want a quick run of the app, just enter command like in this example: 
 ```
 go run ./mgrep scan . 
